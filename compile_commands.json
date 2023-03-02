@@ -30,7 +30,7 @@
             "a.out",
             "asdf.cpp"
         ],
-        "directory": ".",
-        "file": "./asdf.cpp"
+        "directory": "/",
+        "file": "/asdf.cpp"
     }
 ]
