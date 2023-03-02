@@ -1,2 +1,3 @@
 #include <iostream>
-int main(void){int * k = new int[100]; std::cout<<"hit"<<std::endl; return 0;}
+int* magic(void){return new int[100];}
+int main(void){int * k = magic(); std::cout<<"hit"<<std::endl; return 0;}
