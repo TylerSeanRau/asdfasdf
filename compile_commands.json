@@ -1,36 +1,11 @@
 [
     {
         "arguments": [
-            "/usr/bin/c++",
+            "g++",
             "-c",
-            "-DBENCHMARK_STATIC_DEFINE",
-            "-DHAVE_POSIX_REGEX",
-            "-DHAVE_STD_REGEX",
-            "-DHAVE_STEADY_CLOCK",
-            "-std=c++11",
-            "-Wall",
-            "-Wextra",
-            "-Wshadow",
-            "-Wfloat-equal",
-            "-Wsuggest-override",
-            "-pedantic",
-            "-pedantic-errors",
-            "-fstrict-aliasing",
-            "-Wno-deprecated-declarations",
-            "-Wstrict-aliasing",
-            "-O3",
-            "-DNDEBUG",
-            "-Werror",
-            "-Wno-deprecated",
-            "-fvisibility=hidden",
-            "-fvisibility-inlines-hidden",
-            "-pthread",
-            "-std=gnu++14",
-            "-o",
-            "a.out",
             "asdf.cpp"
         ],
-        "directory": "/",
+        "directory": "/home/tyler/dupe/asdfasdf",
         "file": "asdf.cpp"
     }
 ]
