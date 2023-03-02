@@ -7,6 +7,7 @@ plugins:
       ref: v0.0.12
       uri: https://github.com/trunk-io/plugins
 lint:
+  compile_commands: json
   enabled:
     - clang-tidy
     - clang-format
@@ -25,3 +26,4 @@ actions:
     - trunk-fmt-pre-commit
   enabled:
     - trunk-upgrade-available
+    
